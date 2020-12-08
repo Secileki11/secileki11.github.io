@@ -26,15 +26,13 @@ var possibleHusbands = ["Johhny", "Patrick", "Theo", "Paul", "Brad"];
 var random =  Math.floor((Math.random() * possibleHusbands.length));
 var randomHusband = possibleHusbands[random];
 
-var kids = ["1", "2", "3" ];
-var random =  Math.floor((Math.random() * kids.length));
-var randomKids = kids[random];
+var kids = Math.floor(Math.random()*11 );
 
 // On click function
 document.getElementById("demo").onclick = function() {myFunction()};
 function myFunction() 
 { 
-document.getElementById("demo").innerHTML = "You will be a " + randomJob + " In " + randomLocation + " and married to " + randomHusband + " with " + randomKids;
+document.getElementById("demo").innerHTML = "You will be a " + randomJob + " In " + randomLocation + " and married to " + randomHusband + " with " + kids + " Kids.";
 }
 </script>
 
