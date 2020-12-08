@@ -14,7 +14,7 @@
 
 //randomJob, randomLocation, randomHusband, kids will ve put in + # + that will make the program run
 
-var jobs = ["CArchivist", "Librarian", "Editor" ];
+var jobs = ["Archivist", "Librarian", "Editor" ];
 var random =  Math.floor((Math.random() * jobs.length));
 var randomJob = jobs[random];
 
@@ -26,7 +26,9 @@ var possibleHusbands = ["Johhny", "Patrick", "Theo", "Paul", "Brad"];
 var random =  Math.floor((Math.random() * possibleHusbands.length));
 var randomHusband = possibleHusbands[random];
 
-var kids = Math.floor(Math.random()*11 );
+var kids = ["1", "2", "3" ];
+var random =  Math.floor((Math.random() * kids.length));
+var randomKids = kids[random];
 
 // On click function
 document.getElementById("demo").onclick = function() {myFunction()};
