@@ -34,9 +34,9 @@ var ctx = c.getContext("2d");
 ctx.font = "20px helvetica";
 
 var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
-gradient.addColorStop("0", "blue");
-gradient.addColorStop("0.5", "purple");
-gradient.addColorStop("1.0", "red");
+gradient.addColorStop("0", "green");
+gradient.addColorStop("0.5", "yellow");
+gradient.addColorStop("1.0", "blue");
 // 
 ctx.strokeStyle = gradient;
 ctx.strokeText("I LIKE TO DRAW!!!", 100, 20);
@@ -97,19 +97,19 @@ ctx.stroke();
 
  var c = document.getElementById('myCanvas2');
     var ctx1 = c.getContext("2d");
-    ctx1.fillStyle = "lightblue";
+    ctx1.fillStyle = "green";
     ctx1.fillRect(700, 400, 700, 400);
     ctx1.rect(400, 300, 400, 300);
     ctx1.lineWidth = 30;
-    ctx1.strokeStyle = "Grey";
+    ctx1.strokeStyle = "yellow";
     ctx1.stroke();
 var c = document.getElementById('myCanvas2');
     var ctx1 = c.getContext("2d");
-    ctx1.fillStyle = "purple";
+    ctx1.fillStyle = "black";
     ctx1.fillRect(500, 200, 600, 400);
     ctx1.rect(100, 500, 200, 300);
     ctx1.lineWidth = 15;
-    ctx1.strokeStyle = "maroon";
+    ctx1.strokeStyle = "white";
     ctx1.stroke();  
  
 
