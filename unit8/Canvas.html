@@ -37,9 +37,6 @@ var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
 gradient.addColorStop("0", "green");
 gradient.addColorStop("0.5", "yellow");
 gradient.addColorStop("1.0", "blue");
-// 
-ctx.strokeStyle = gradient;
-ctx.strokeText("I LIKE TO DRAW!!!", 100, 20);
 
 var c = document.getElementById('myCanvas');
 var ctx = c.getContext("2d");
@@ -109,7 +106,7 @@ var c = document.getElementById('myCanvas2');
     ctx1.fillRect(500, 200, 600, 400);
     ctx1.rect(100, 500, 200, 300);
     ctx1.lineWidth = 15;
-    ctx1.strokeStyle = "white";
+    ctx1.strokeStyle = "red";
     ctx1.stroke();  
  
 
